@@ -13,6 +13,15 @@
 		1E0E5CBA207CD95A00222700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0E5CB9207CD95A00222700 /* Assets.xcassets */; };
 		1E0E5CBD207CD95A00222700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0E5CBB207CD95A00222700 /* LaunchScreen.storyboard */; };
 		1E0E5CC0207CD95B00222700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CBF207CD95B00222700 /* main.m */; };
+		1E0E5CD1207CD96E00222700 /* CCHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CC7207CD96E00222700 /* CCHTTPRequestOperation.m */; };
+		1E0E5CD2207CD96E00222700 /* CCNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CC8207CD96E00222700 /* CCNetworkTools.m */; };
+		1E0E5CD3207CD96E00222700 /* CCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CC9207CD96E00222700 /* CCNetwork.m */; };
+		1E0E5CD5207CD96E00222700 /* CCHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CCB207CD96E00222700 /* CCHTTPRequestOperationManager.m */; };
+		1E0E5CD9207CDA9900222700 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CD7207CDA9900222700 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E0E5CE2207CDFBA00222700 /* NSObject+CCModelCheckType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CDC207CDFBA00222700 /* NSObject+CCModelCheckType.m */; };
+		1E0E5CE3207CDFBA00222700 /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CDD207CDFBA00222700 /* CCModel.m */; };
+		1E0E5CE4207CDFBA00222700 /* CCDataAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5CE0207CDFBA00222700 /* CCDataAnalysis.m */; };
+		AFA6BE7B31633278B59B4CB3 /* libPods-CCNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C570C598930887E2BA1727 /* libPods-CCNetwork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,26 @@
 		1E0E5CBC207CD95A00222700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E0E5CBE207CD95A00222700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0E5CBF207CD95B00222700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E0E5CC7207CD96E00222700 /* CCHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHTTPRequestOperation.m; sourceTree = "<group>"; };
+		1E0E5CC8207CD96E00222700 /* CCNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNetworkTools.m; sourceTree = "<group>"; };
+		1E0E5CC9207CD96E00222700 /* CCNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNetwork.m; sourceTree = "<group>"; };
+		1E0E5CCB207CD96E00222700 /* CCHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		1E0E5CCC207CD96E00222700 /* CCHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestOperation.h; sourceTree = "<group>"; };
+		1E0E5CCD207CD96E00222700 /* CCNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetworkTools.h; sourceTree = "<group>"; };
+		1E0E5CCF207CD96E00222700 /* CCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetwork.h; sourceTree = "<group>"; };
+		1E0E5CD0207CD96E00222700 /* CCHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1E0E5CD7207CDA9900222700 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1E0E5CD8207CDA9900222700 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1E0E5CDB207CDFBA00222700 /* CCModelDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModelDefine.h; sourceTree = "<group>"; };
+		1E0E5CDC207CDFBA00222700 /* NSObject+CCModelCheckType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCModelCheckType.m"; sourceTree = "<group>"; };
+		1E0E5CDD207CDFBA00222700 /* CCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
+		1E0E5CDE207CDFBA00222700 /* CCDataAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDataAnalysis.h; sourceTree = "<group>"; };
+		1E0E5CDF207CDFBA00222700 /* NSObject+CCModelCheckType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCModelCheckType.h"; sourceTree = "<group>"; };
+		1E0E5CE0207CDFBA00222700 /* CCDataAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataAnalysis.m; sourceTree = "<group>"; };
+		1E0E5CE1207CDFBA00222700 /* CCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
+		31C570C598930887E2BA1727 /* libPods-CCNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B59EB5F85E96B0F7B8C30D8 /* Pods-CCNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCNetwork/Pods-CCNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		B319B3CE0AD36A759864E362 /* Pods-CCNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCNetwork/Pods-CCNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA6BE7B31633278B59B4CB3 /* libPods-CCNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,8 @@
 			children = (
 				1E0E5CAF207CD95A00222700 /* CCNetwork */,
 				1E0E5CAE207CD95A00222700 /* Products */,
+				7F2FD1E50AEB968766BEF9FC /* Pods */,
+				C6173C561A4D101785245FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,10 @@
 		1E0E5CAF207CD95A00222700 /* CCNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				1E0E5CDA207CDFBA00222700 /* CCModel */,
+				1E0E5CD8207CDA9900222700 /* JSONKit.h */,
+				1E0E5CD7207CDA9900222700 /* JSONKit.m */,
+				1E0E5CC6207CD96E00222700 /* CCNetwork */,
 				1E0E5CB0207CD95A00222700 /* AppDelegate.h */,
 				1E0E5CB1207CD95A00222700 /* AppDelegate.m */,
 				1E0E5CB3207CD95A00222700 /* ViewController.h */,
@@ -71,6 +107,52 @@
 			path = CCNetwork;
 			sourceTree = "<group>";
 		};
+		1E0E5CC6207CD96E00222700 /* CCNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5CCF207CD96E00222700 /* CCNetwork.h */,
+				1E0E5CC9207CD96E00222700 /* CCNetwork.m */,
+				1E0E5CCD207CD96E00222700 /* CCNetworkTools.h */,
+				1E0E5CC8207CD96E00222700 /* CCNetworkTools.m */,
+				1E0E5CCC207CD96E00222700 /* CCHTTPRequestOperation.h */,
+				1E0E5CC7207CD96E00222700 /* CCHTTPRequestOperation.m */,
+				1E0E5CD0207CD96E00222700 /* CCHTTPRequestOperationManager.h */,
+				1E0E5CCB207CD96E00222700 /* CCHTTPRequestOperationManager.m */,
+			);
+			path = CCNetwork;
+			sourceTree = "<group>";
+		};
+		1E0E5CDA207CDFBA00222700 /* CCModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5CDB207CDFBA00222700 /* CCModelDefine.h */,
+				1E0E5CDC207CDFBA00222700 /* NSObject+CCModelCheckType.m */,
+				1E0E5CDD207CDFBA00222700 /* CCModel.m */,
+				1E0E5CDE207CDFBA00222700 /* CCDataAnalysis.h */,
+				1E0E5CDF207CDFBA00222700 /* NSObject+CCModelCheckType.h */,
+				1E0E5CE0207CDFBA00222700 /* CCDataAnalysis.m */,
+				1E0E5CE1207CDFBA00222700 /* CCModel.h */,
+			);
+			path = CCModel;
+			sourceTree = "<group>";
+		};
+		7F2FD1E50AEB968766BEF9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B319B3CE0AD36A759864E362 /* Pods-CCNetwork.debug.xcconfig */,
+				6B59EB5F85E96B0F7B8C30D8 /* Pods-CCNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6173C561A4D101785245FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C570C598930887E2BA1727 /* libPods-CCNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E0E5CC3207CD95B00222700 /* Build configuration list for PBXNativeTarget "CCNetwork" */;
 			buildPhases = (
+				4E73CFFDC454DCED7711CC59 /* [CP] Check Pods Manifest.lock */,
 				1E0E5CA9207CD95A00222700 /* Sources */,
 				1E0E5CAA207CD95A00222700 /* Frameworks */,
 				1E0E5CAB207CD95A00222700 /* Resources */,
+				4C954AB326E33CB1CD75D955 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +220,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C954AB326E33CB1CD75D955 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCNetwork/Pods-CCNetwork-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCNetwork/Pods-CCNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E73CFFDC454DCED7711CC59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E0E5CA9207CD95A00222700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0E5CE2207CDFBA00222700 /* NSObject+CCModelCheckType.m in Sources */,
 				1E0E5CB5207CD95A00222700 /* ViewController.m in Sources */,
 				1E0E5CC0207CD95B00222700 /* main.m in Sources */,
+				1E0E5CD3207CD96E00222700 /* CCNetwork.m in Sources */,
 				1E0E5CB2207CD95A00222700 /* AppDelegate.m in Sources */,
+				1E0E5CE3207CDFBA00222700 /* CCModel.m in Sources */,
+				1E0E5CD2207CD96E00222700 /* CCNetworkTools.m in Sources */,
+				1E0E5CE4207CDFBA00222700 /* CCDataAnalysis.m in Sources */,
+				1E0E5CD5207CD96E00222700 /* CCHTTPRequestOperationManager.m in Sources */,
+				1E0E5CD9207CDA9900222700 /* JSONKit.m in Sources */,
+				1E0E5CD1207CD96E00222700 /* CCHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +412,7 @@
 		};
 		1E0E5CC4207CD95B00222700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B319B3CE0AD36A759864E362 /* Pods-CCNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +429,7 @@
 		};
 		1E0E5CC5207CD95B00222700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B59EB5F85E96B0F7B8C30D8 /* Pods-CCNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
